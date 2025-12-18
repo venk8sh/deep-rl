@@ -172,3 +172,7 @@ eval_env = Monitor(gym.make("LunarLander-v2"))
 mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10, deterministic=True)
 print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 ```
+
+
+Colab Code: https://colab.research.google.com/drive/1fBcvonA0Xc25FGtLPtj8X6Gji2dnnPpS 
+
